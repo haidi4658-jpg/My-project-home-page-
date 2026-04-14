@@ -1,0 +1,189 @@
+.circle {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 8px solid transparent;   /* base border */
+  border-top: 12px solid #3498db;  /* thick top border */
+
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0%   { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+.illusion {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+
+  /* black & white illusion using conic gradient */
+  background: conic-gradient(
+    black 0deg 30deg,
+    white 30deg 60deg,
+    black 60deg 90deg,
+    white 90deg 120deg,
+    black 120deg 150deg,
+    white 150deg 180deg,
+    black 180deg 210deg,
+    white 210deg 240deg,
+    black 240deg 270deg,
+    white 270deg 300deg,
+    black 300deg 330deg,
+    white 330deg 360deg
+  );
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  animation: spin 1.5s linear infinite;
+}
+
+/* center icon */
+.icon {
+  width: 60px;
+  height: 60px;
+  background: white;
+  color: black;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  font-size: 24px;
+  font-weight: bold;
+}
+
+/* rotation */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.line-art {
+  width: 300px;
+  height: 200px;
+  position: relative;
+
+  background: repeating-linear-gradient(
+    60deg,
+    black 0px,
+    black 2px,
+    white 2px,
+    white 10px
+  );
+
+  animation: moveLines 2s linear infinite;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* moving effect */
+@keyframes moveLines {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 100px 0;
+  }
+}
+
+/* centered text */
+.text {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px 20px;
+  border-radius: 8px;
+
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+}
+.line-art {
+  width: 300px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+
+  background: repeating-linear-gradient(
+    60deg,
+    black 0px,
+    black 2px,
+    white 2px,
+    white 10px
+  );
+
+  animation: moveLines 2s linear infinite;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* moving background */
+@keyframes moveLines {
+  from { background-position: 0 0; }
+  to   { background-position: 100px 0; }
+}
+
+/* centered text */
+.text {
+  background: rgba(255, 255, 255, 0.8);
+  padding: 10px 20px;
+  border-radius: 8px;
+
+  font-size: 20px;
+  font-weight: bold;
+  color: black;
+  z-index: 2;
+}
+
+/* the ball */
+.ball {
+  width: 12px;
+  height: 12px;
+  background: rgb(77, 5, 5);
+  border-radius: 50%;
+  position: absolute;
+
+  animation: moveAround 6s linear infinite;
+}
+
+/* rectangular path animation */
+@keyframes moveAround {
+  /* top-left */
+  0% {
+    top: 0;
+    left: 0;
+  }
+
+  /* move along top */
+  25% {
+    top: 0;
+    left: calc(100% - 12px);
+  }
+
+  /* move down right side */
+  50% {
+    top: calc(100% - 12px);
+    left: calc(100% - 12px);
+  }
+
+  /* move along bottom */
+  75% {
+    top: calc(100% - 12px);
+    left: 0;
+  }
+
+  /* move up left side */
+  100% {
+    top: 0;
+    left: 0;
+  }
+}

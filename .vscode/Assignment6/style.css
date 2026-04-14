@@ -1,0 +1,47 @@
+.parent{
+    height: 200px;
+    width: 400px;
+    background-color: black;
+    padding-top: 90px;
+}
+.child{
+    height: 50%;
+    width: 50%;
+    background-color: white;
+    margin-left: 25%;
+}
+.one{
+    font-size: 20px;
+    background-color: #991515;
+    margin: 1em;
+    padding: 2em;
+}
+.three{
+    font-size: 400px;
+    background-color: black;
+    color: white;
+    width: 50%;
+    text-align: center;
+}
+.four{
+    font-size: 0.4em;
+    background-color: #991515;
+    padding: 0.5em;
+    height: 30px;
+    padding-bottom: 25%;
+}
+.content{
+    height: 1000px;
+    width: 100%;
+    background-image: url(assets/randon.jpg);
+    background-size: cover;
+}
+.position{
+    height: 200px;
+    width: 200px;
+    background-color: rgb(201, 34, 34);
+    position: sticky;
+    left: 100%;
+    top: 10px;
+    z-index: +10px;
+}

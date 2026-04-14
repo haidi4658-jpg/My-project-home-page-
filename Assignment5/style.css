@@ -1,0 +1,51 @@
+.parent{
+    background: linear-gradient(rgba(0,0,0,0.4)),
+    url(assets/depositphotos_369661400-stock-photo-young-handsome-man-looking-away.jpg);
+    /* background-image: url(assets/depositphotos_369661400-stock-photo-young-handsome-man-looking-away.jpg); */
+    background-size: cover;
+    height: 800px;
+}
+.navbar{
+    background-color: rgba(29, 27, 27, 0.315);
+    padding: 30px;
+    font-size: larger;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.747);
+    position: fixed;
+    column-width: 200%;
+}
+a{
+    text-decoration: none;
+    margin-left: 200px;
+    color: rgb(184, 179, 179);
+}
+span{
+    font-weight: bold;
+    font-size: larger;
+    color: rgba(250, 1, 1, 0.699);
+}
+.content{
+    color: rgb(223, 220, 220);
+    text-align: right;
+    margin-right: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 100px;
+    line-height: 20px;
+    font-size: larger;
+}
+#color{
+    color: rgba(70, 10, 10, 0.856);
+    margin-right: 90px;
+}
+button{
+    background-color: rgba(0, 0, 0, 0.363);
+    color: rgb(179, 27, 27);
+    padding: 10px;
+    width: 130px;
+    height: 40px;
+    margin-right: 80px;
+    font-size: large;
+    font-weight: bold;
+}
+#hello{
+    margin-right: 110px;
+}

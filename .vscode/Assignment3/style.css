@@ -1,0 +1,26 @@
+*{
+    background-image: linear-gradient(rgb(122, 78, 163), rgb(85, 57, 138), rgb(65, 23, 99));
+}
+#heading{
+    text-align: center; 
+    color: lavender;
+}
+.text{
+    color: white;
+}
+#para1{
+    font-family: Verdana, Geneva, Tahoma, sans-serif; 
+    font-weight: 900;
+}
+#para2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#link{
+    text-align: center; 
+    color: rgb(250, 241, 241); 
+    text-decoration: none;
+}
+#para3{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: line-through;
+}
