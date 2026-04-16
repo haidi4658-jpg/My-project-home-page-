@@ -105,6 +105,52 @@ img{
     button:hover {
       background: #0056b3;
     }
+    .menu{
+      padding: 10px;
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+      color: white;
+      text-align: center;
+    }
+    #menu1{
+      height: 200px;
+      width: 350px;
+      background-color: coral;
+      border-radius: 20px;
+    }
+    #menu2{
+      height: 200px;
+      width: 450px;
+      background-color: coral;
+      border-radius: 20px;
+    }
+    #menu3{
+      height: 200px;
+      width: 350px;
+      background-color: coral;
+      border-radius: 20px;
+    }
+    .menuone{
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+      justify-content: center;
+      color: white;
+      text-align: center;
+    }
+    #menu4{
+      height: 200px;
+      width: 550px;
+      background-color: coral;
+      border-radius: 20px;
+    }
+    #menu5{
+      height: 200px;
+      width: 550px;
+      background-color: coral;
+      border-radius: 20px;
+    }
     .footer {
   background: #111;
   color: #fff;
