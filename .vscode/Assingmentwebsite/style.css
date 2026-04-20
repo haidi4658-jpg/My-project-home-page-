@@ -12,12 +12,12 @@
     gap: 5px;
 }
 a{
-    text-decoration: none;
-    color: black;
+    text-decoration: none !important;
+    color: black !important;
 }
 a:hover{
-    background-color: coral;
-    color: antiquewhite;
+    background-color: coral !important;
+    color: antiquewhite !important;
 }
 #logo{
     width: 2%;
@@ -75,7 +75,8 @@ img{
 
     /* SEARCH BAR */
     .search-bar {
-      position: absolute;
+      position: relative;
+      margin: 20px auto;
       bottom: -40px;
       left: 50%;
       transform: translateX(-50%);
@@ -85,6 +86,8 @@ img{
       display: flex;
       gap: 10px;
       box-shadow: 0 5px 20px rgba(0,0,0,0.2);
+      justify-content: center;
+      margin: 50px auto;   /* adds space above & below */
     }
 
     select {
@@ -112,6 +115,7 @@ img{
       flex-wrap: wrap;
       color: white;
       text-align: center;
+      color: white;
     }
     #menu1{
       height: 200px;
@@ -152,11 +156,21 @@ img{
       border-radius: 20px;
     }
     .plan{
-      height: 400px;
-      width: 200px;
-      display: flex;
-      justify-content: space-evenly;
+  display: flex;
+  align-items: center;        /* vertical center */
+  justify-content: center;    /* horizontal center */
+  gap: 40px;                  /* space between image & text */
+  padding: 60px 20px;
     }
+   #planimage img {
+  width: 100%;
+  height: 70%;
+  max-width: 700px;
+}
+    #plantext {
+  text-align: center;
+  max-width: 400px;
+}
     .footer {
   background: #111;
   color: #fff;
@@ -223,3 +237,14 @@ img{
   padding-top: 15px;
   font-size: 14px;
 }
+#cursive-text{
+  color: coral;
+}
+.heading{
+  text-align: center;
+}
+.plan{
+  display: flex;
+  align-items: center;
+}
+#
