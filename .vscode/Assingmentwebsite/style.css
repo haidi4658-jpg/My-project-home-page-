@@ -120,19 +120,19 @@ img{
     #menu1{
       height: 200px;
       width: 350px;
-      background-color: coral;
+      background-color: #E8604C;
       border-radius: 20px;
     }
     #menu2{
       height: 200px;
       width: 450px;
-      background-color: coral;
+      background-color: #E8604C;
       border-radius: 20px;
     }
     #menu3{
       height: 200px;
       width: 350px;
-      background-color: coral;
+      background-color: #E8604C;
       border-radius: 20px;
     }
     .menuone{
@@ -146,13 +146,13 @@ img{
     #menu4{
       height: 200px;
       width: 550px;
-      background-color: coral;
+      background-color: #E8604C;
       border-radius: 20px;
     }
     #menu5{
       height: 200px;
       width: 550px;
-      background-color: coral;
+      background-color: #E8604C;
       border-radius: 20px;
     }
     .plan{
@@ -247,4 +247,85 @@ img{
   display: flex;
   align-items: center;
 }
-#
+#book{
+  background-color: #E8604C;
+  color: white;
+  border-radius: 20px;
+}
+#book:hover{
+  background-color: #333;
+  color: ;
+}
+#sectiontext{
+  padding: 20px;
+  padding-left: 100px;
+}
+.mainsection{
+  display: flex;
+}
+.p-3borderbg-light1{
+  height: 150px;
+  width: 150px;
+  background-color: #E8604C;
+  text-align: center;
+}
+.p-3borderbg-light2{
+  height: 150px;
+  width: 150px;
+  background-color: #E8604C;
+  text-align: center;
+}
+.p-3borderbg-light3{
+  height: 150px;
+  width: 150px;
+  background-color: #E8604C;
+  text-align: center;
+}
+.p-3borderbg-light4{
+  height: 150px;
+  width: 150px;
+  background-color: #E8604C;
+  text-align: center;
+}
+.container{
+  display: flex;
+}
+.col-6{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.p-3borderbg-light1:hover{
+  background-color: #333;
+}
+.p-3borderbg-light2:hover{
+  background-color: #333;
+}
+.p-3borderbg-light3:hover{
+  background-color: #333;
+}
+.p-3borderbg-light4:hover{
+  background-color: #333;
+}
+.card{
+  display: flex;
+  height: 100px;
+  width: 100px;
+}
+
+.sectionprofile{
+  display: flex;
+  justify-content: center;
+}
+.meet{
+  display: flex;
+  justify-content: center;
+}
+#buttoncolor{
+  background-color: coral;
+}
+
+
+
+
+
